@@ -282,8 +282,8 @@ class VisualizationManager:
 def main():
     # 1. 计算阶段
     computer = ComputationManager()
-    computer.run_task1_trajectory()
-    # computer.run_task2_parameter_scan()
+    # computer.run_task1_trajectory()
+    computer.run_task2_parameter_scan()
     # computer.run_task3_hysteresis()
     # computer.run_task4_chaos()
     
@@ -297,8 +297,8 @@ def main():
     #     "font.serif": ["Times New Roman"],  # 指定支持希腊字母的字体
     #     "axes.unicode_minus": False # 避免负号显示异常（可选）
     # })
-    plotter.plot_task1()
-    # plotter.plot_task2()
+    # plotter.plot_task1()
+    plotter.plot_task2()
     # plotter.plot_task3()
     # plotter.plot_task32()
     # plotter.plot_task4()

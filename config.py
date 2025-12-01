@@ -6,7 +6,7 @@ class Config:
     DEFAULT_PARAMS = {
         'delta': 0.2,   # 阻尼
         'alpha': 1.0,   # 线性刚度
-        'beta': 50.0,    # 非线性刚度
+        'beta': 1.0,    # 非线性刚度
         'gamma': 2.5,   # 驱动力幅值
         'omega': 2.0    # 驱动频率
     }
@@ -25,7 +25,7 @@ class Config:
         'delta': np.linspace(0.0, 0.5, 50),
         'alpha': np.linspace(-0.5, 1.5, 50),
         'beta':  np.linspace(0.0, 1.5, 50),
-        'gamma': np.linspace(1.5, 3.5, 50),
+        'gamma': np.linspace(1.5, 3.0, 50),
         'omega': np.linspace(0.5, 5.0, 50)
     }
 
